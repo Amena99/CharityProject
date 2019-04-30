@@ -12,8 +12,8 @@ This website is a platform for users looking for ways to volunteer their time to
 TimeLender is structured in the MVC form and uses MySQL database. I facilitated the planning and organization of the database by creating mock tables in GoogleSheets. Color coding helped to delineate which columns would be joined to columns in other tables to make the queries that we needed for our data possible. Much planning was done in advance to ensure that we would be able to store and display data as needed across five tables. 
 ![alt, text](https://i.imgur.com/BDAEBcXl.png)
 
-After the map was laid, out I created the Sequelize models including appropriate joins. I subsequently completed the routing for CRUD (Create, Read, Update, Delete) operations to the database throughout the entire MVC pipline. 
-![alt, text](https://i.imgur.com/kAgdV9tl.png)
+After the map was laid, out I created the Sequelize models including appropriate joins. I subsequently completed the routing for C.R.U.D. (Create, Read, Update, Delete) operations to the database throughout the entire MVC pipline. 
+![alt, text](https://i.imgur.com/TOFSA64l.png)
 
 #### Incorporating Stripe for Purchases
 Stripe is a third party application integrated into TimeLender to facilitate monetary donations to organization. Stripe's React.js elements were imported from the Stripe library and incorporated to the commit page to provide users with an interface to complete purchases. Right now Stripe is still in test mode and does not take actual credit cards, but can be enhanced in the future to achieve full functionality. 
